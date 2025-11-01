@@ -7,7 +7,6 @@ import io.ktor.server.routing.*
 fun Route.moviesRoute(movieService: MovieService) {
     route("/movies") {
         get {
-            println("GET /movies")
             call.respond(movieService.getAllMovies())
         }
     }

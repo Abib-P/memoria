@@ -5,7 +5,6 @@ import com.nainssa.core.movie.MovieRepository
 
 class MovieGoogleSheetRepository : MovieRepository {
     override fun getAllMovies(): List<Movie> {
-        println("Get all movies")
         return emptyList()
     }
 }
