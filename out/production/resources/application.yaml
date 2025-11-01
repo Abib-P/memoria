@@ -1,0 +1,6 @@
+ktor:
+  application:
+    modules:
+      - com.nainssa.infrastructure.controller.ControllerConfigurationKt.controllers
+  deployment:
+    port: 8080
